@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (por si en el futuro agregas tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backups locales que NO deben subirse al repo
+*.patch
+*.bak
+*.orig
+*.rej
+
+# Plan/diff de respaldo usado durante desarrollo local
+PLAN_REDISENO_LV_v1_DIFF_BACKUP.patch
+.aider*
